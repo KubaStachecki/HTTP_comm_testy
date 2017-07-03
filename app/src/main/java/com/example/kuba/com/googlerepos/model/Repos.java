@@ -11,7 +11,7 @@ public class Repos {
 
     @SerializedName("id")
     @Expose
-    private Integer id;
+    private int id;
     @SerializedName("name")
     @Expose
     private String name;
@@ -31,7 +31,7 @@ public class Repos {
 
 
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 

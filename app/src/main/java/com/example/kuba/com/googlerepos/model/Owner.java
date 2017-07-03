@@ -9,7 +9,7 @@ public class Owner {
     private String login;
     @SerializedName("id")
     @Expose
-    private Integer id;
+    private int id;
     @SerializedName("avatar_url")
     @Expose
     private String avatarUrl;
@@ -27,7 +27,7 @@ public class Owner {
     public Integer getId() {
         return id;
     }
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getAvatarUrl() {
