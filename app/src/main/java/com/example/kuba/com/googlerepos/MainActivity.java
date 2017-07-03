@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onError(@NonNull Throwable e) {
                         Log.d("LOOOOOOG ", e.getMessage());
 
-                        Toast.makeText(MainActivity.this, "FAAAAIL" + e.getMessage() , Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "FAAAAIL" + e.getMessage(), Toast.LENGTH_SHORT).show();
 
                         progressDialog.dismiss();
 
@@ -115,9 +115,9 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
-    private void configureListView(){
+    private void configureListView() {
 
-         arrayAdapter = new ArrayAdapter<String>(getApplicationContext(),
+        arrayAdapter = new ArrayAdapter<String>(getApplicationContext(),
                 R.layout.list_view_black_text, R.id.list_content, reposNames);
 
         listView.setAdapter(arrayAdapter);
